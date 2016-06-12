@@ -1,0 +1,16 @@
+{
+  "name": "redirect-server",
+  "version": "0.2.0",
+  "description": "A simple HTTP redirection server",
+  "scripts": {
+    "start": "./bin/server --port=3000"
+  },
+  "dependencies": {
+    "nconf": "0.6.x"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.6"
+  },
+  "analyze": false
+}
