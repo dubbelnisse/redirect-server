@@ -1,12 +1,12 @@
 FROM node:4.2
 
+COPY package.json ./
 WORKDIR ./
 
-COPY package.json ./
-COPY bin ./
-COPY lib ./
-
 RUN npm install
+
+COPY bin ./bin
+COPY lib ./lib
 
 EXPOSE 3000
 CMD npm run -s start
