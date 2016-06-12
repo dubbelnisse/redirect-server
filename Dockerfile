@@ -1,5 +1,7 @@
 FROM node:4.2
 
+WORKDIR ./
+
 COPY package.json ./
 COPY bin ./
 COPY lib ./
