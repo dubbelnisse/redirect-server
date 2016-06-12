@@ -1,8 +1,8 @@
 FROM node:4.2
 
-COPY package.json
-COPY bin
-COPY lib
+COPY package.json ./
+COPY bin ./
+COPY lib ./
 
 RUN npm install
 
