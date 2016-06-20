@@ -5,6 +5,18 @@
       "host": "http://annatrettioar.confetti.events/",
       "code": 302
     },
+    "www.annatrettioar.se": {
+      "host": "http://annatrettioar.confetti.events/",
+      "code": 302
+    },
+    "http://annatrettioar.se": {
+      "host": "http://annatrettioar.confetti.events/",
+      "code": 302
+    },
+    "http://www.annatrettioar.se": {
+      "host": "http://annatrettioar.confetti.events/",
+      "code": 302
+    },
     "*": {
       "host": "http://nilssonnils.se",
       "code": 302
